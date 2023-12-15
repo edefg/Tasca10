@@ -1,0 +1,9 @@
+a = (56, 42, 23)
+for i in a:
+    print(i)
+
+for j in range(len(a)):
+    print(j)
+
+for p,e in enumerate(a):
+    print(" index:{} ,:element: {}".format(p,e))    

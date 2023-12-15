@@ -1,0 +1,20 @@
+a = 1
+while a>0:
+    print("""
+    Menu
+    1. Mirar si es un numero es senar  o parell
+    2. Sortir
+    """)
+    a = int (input("Selecciona una opcio: "))
+    match a:
+        case 1: #Si volem veure si un numero es o no parell
+          
+            x = int(input("Escriure un nombre un nombre: "))
+            if x % 2 == 0:
+                print("Es parell")
+            else :
+                print("No es parell")
+
+a = [3, 27, 4, "Hola, "b", 27, 4]
+if 4 in a:
+    print()

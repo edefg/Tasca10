@@ -1,0 +1,7 @@
+a = [2, 3, 4]
+b = [2, 3, 4]
+if b ==a:
+    print("Apunta el mateix objecte")
+else:
+
+print("No apunta al mateixc¡ objecte")

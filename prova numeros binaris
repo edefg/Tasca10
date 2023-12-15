@@ -1,0 +1,11 @@
+#funcions canvis de base 
+# de decimal a binari,octal i hexadecimal
+def dectobin(numero):
+    return bin (numero)
+def dectooct(numero):
+    return oct(numero)
+def dectohex(numero):
+    return hex(numero)
+
+x = int(input("Introdueix un numero en decimal: "))
+print(dectooct(x))
